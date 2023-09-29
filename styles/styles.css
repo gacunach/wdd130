@@ -33,16 +33,17 @@ main {
 aside {
     width: 25rem;
     text-align: center;
+    position: relative;
 }
 aside img {
     width: 200px;
-    height: auto;
-    position: relative;    
+    height: auto;    
 }
 aside h2 {
     position: absolute;
-    top:  599px;
-    left: 195px;
+    top:  2rem;
+    left: 15rem;
+    color: #000;
 
 }
 footer {
@@ -54,7 +55,7 @@ footer {
 .box {
     margin: 2rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 2px;
+    padding: 2rem;
     background-color: rgba(122, 186, 207);
     color: #000;
 }
