@@ -26,6 +26,7 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    
 }
 p {
     font-family: var(--paragraph-font);
@@ -40,26 +41,83 @@ body {
     width: 100%;
     height: 20rem;
     position: relative;
+    padding: 50px;
 }
 .hero article {
     position: relative;
     background-color: #1cb3ca36;
     bottom: 18rem;
-    right: 5px;
+    left: 50px;
     
 }
 .hero article > img {
     width: 10rem;
     height: auto;
     float: right;
-    top: 1rem;
+    bottom: 45px;
 }
 section {
     position: relative;
-    bottom: 12rem;    
+    bottom: 12rem;
 }
+.history {
+    display: grid;
+    grid-template-columns: 3fr 6fr;    
+    grid-template-rows: 80px 1fr 3fr 3fr;
+    align-items: center;
+}
+.history img {
+    width: 400px;
+    grid-column: 2 / 6 ;
+    grid-row: 2/3;
+    
+}
+.history p {
+    grid-column: 1 / 2;
+    width: 500px;
+    grid-row: 2 / 3;
+}
+.adventure {
+    display: flex;
+    position: relative;
+}
+.adventure h2 {
+    position: relative;
+    bottom: 95rem;
+    left: 30rem;
+}
+.adventure img {
+    position: relative;
+    width: 200px;
+    bottom: 90rem;
+    right: 5rem;
+}
+.adventure figcaption {
+    position: relative;
+    bottom: 87rem;
+    right: 5rem;
+    
+}
+
 footer {
     position: relative;
-    bottom: 12rem;
+    bottom: 97rem;
     text-decoration: none;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 80px 1fr;
+}
+footer a {
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    align-items: center;
+    border-bottom: solid 2px var(--accent1-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color)
 }
