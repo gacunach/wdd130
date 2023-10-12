@@ -39,6 +39,9 @@ button {
     height: 2.5rem; 
     font-size: medium;   
 }
+button:hover {
+    background-color: rgb(36, 36, 87);
+}
 footer {
     margin: auto;
     padding: 5px;
