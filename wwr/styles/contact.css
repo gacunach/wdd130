@@ -17,7 +17,8 @@
 h1 {
     text-align: center;
     margin-top: 5rem;
-    font-size: 3rem
+    font-size: 3rem;
+    font-family: var(--heading-font);
 }
 nav a {
     display: block;
@@ -57,6 +58,7 @@ footer nav {
     position: relative;
     top: 25rem;
     left: 25rem;
+    font-family: var(--heading-font);
     
 }
 
