@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:ital,wght@1,300&display=swap');
+
+:root {
+    --primary-color: #3d62a4;
+    --secondary-color: #519872;
+    --accent1-color: #69353f;
+    --accent2-color: #fff;
+
+    --heading-font: 'Roboto', sans seriff;
+    --paragraph-font: 'Patrick Hand', cursive;
+
+    --nav-background-color: #519872;
+    --nav-link-color: #3d62a4;
+    --nav-hover-link-color: #00a;
+    --nav-hover-background-color: #3d62a4;
+}
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem
+}
+nav a {
+    display: block;
+    padding: 1.2rem;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 230px 1fr 1fr;
+    align-items: center;
+    border-bottom: solid 2px var(--accent1-color);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.info {
+    position: relative;
+    top: 25rem;
+    left: 25rem;
+    
+}
+
+.employees {
+    position: relative;
+    bottom: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+.map {
+    position: relative;
+    top: 16rem;
+    left: 45rem;
+}  
+
+fieldset {
+    position: relative;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: large;
+    display: grid;
+    grid-gap: .5rem;
+}
+legend {
+    font-size: 2rem;
+    text-align: center;
+}
+.question {
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+}
+button {
+    background-color: navy;
+    color: #fff;
+    height: 2.5rem; 
+    font-size: medium;   
+}
+button:hover {
+    background-color: rgb(36, 36, 87);
+}
