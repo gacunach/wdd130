@@ -24,6 +24,8 @@ header a, footer a{
     display: block;
     padding: 1.2rem;
     color: var(--nav-link-color);
+}
+footer a {
     text-decoration: none;
 }
 nav a:link, nav a:visited {
